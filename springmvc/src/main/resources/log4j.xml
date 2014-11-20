@@ -12,7 +12,7 @@
 	
 	<!-- Application Loggers -->
 	<logger name="org.grillo.app">
-		<level value="debug" />
+		<level value="warm" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
