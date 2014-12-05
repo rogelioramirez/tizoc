@@ -1,13 +1,18 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
 <!DOCTYPE html>
 <html>
+
 <head>
+
   <meta charset="UTF-8">
+
   <title>Pure CSS Blurred Video Background Login Box. (fork) - CodePen</title>
-  <link rel="stylesheet" href="resources/css/style.css" media="screen" type="text/css" />
+
+    <link rel="stylesheet" href="resources/css/style.css" media="screen" type="text/css" />
+
 </head>
+
 <body>
+
   <div class="vid-container">
   <video id="Video1" class="bgvid" autoplay="false" muted="muted" preload="auto" loop>
       <source src="http://shortcodelic1.manuelmasiacsasi.netdna-cdn.com/themes/geode/wp-content/uploads/2014/04/milky-way-river-1280hd.mp4.mp4" type="video/mp4">
@@ -22,12 +27,12 @@
       <input type="text" placeholder="Password"/>
       <button>Login</button>
       <p>Not a member? <span>Sign Up</span></p>
-      <p>${serverTime}</p>
     </div>
   </div>
 </div>
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
   <script src="resources/js/index.js"></script>
 
 </body>
